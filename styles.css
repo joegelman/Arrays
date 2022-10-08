@@ -1,0 +1,21 @@
+* {
+    font-size: 16px;
+    line-height: 1.4em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px auto;
+    max-width: 72ch;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+li {
+    margin: none;
+    padding: none;
+    font-weight: bold;
+}
