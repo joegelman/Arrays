@@ -106,6 +106,7 @@ let blogTitles = blogPosts.map((postTitle) => {
 
 console.log(blogTitles);
 
+
 let blogListItems = document.getElementById("blogItems");
 
 
@@ -118,5 +119,8 @@ blogTitles.forEach((item) => {
 
 
 
+let blogPostsJSON = JSON.stringify(blogPosts);
+
+console.log(blogPostsJSON);
 
 
